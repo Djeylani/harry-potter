@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to top left, #3ad, #de2, #acc);
+}
+
+header {
+    background: #333;
+    height: 65px;
+    color: #ddd;
+    margin-bottom: 10px;
+}
+
+img {
+    width: 50%;
+}
+
+footer {
+    text-align: center;
+    background: #333;
+    color: #ddd;
+    height: 40px;
+    padding: 4px;
+}
+
+@media screen and (max-width: 800px) {
+    img {
+        width: 100%!important;
+    }
+}
